@@ -1,0 +1,145 @@
+/*GLOBAL STYLE APPLYING FOR ANY MARGIN AND PADDING IN THE PAGE */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0fff0;
+}
+
+  .logo{
+   float: left;
+   margin: 10px;
+   margin-left: 65px;
+  }
+
+  .top-nav {
+    margin: auto;
+    background-color: #01203F;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Roboto, 'Open Sans', Arial, sans-serif;
+    overflow: hidden;
+  }
+
+  /*STYLING NAV BAR*/
+
+  ul.nav {
+    float: right;
+    margin: auto 50px;
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+  }
+  
+  ul.nav li {
+    float: left;
+    position: relative;
+  }
+  
+  ul.nav li a {
+    transition: color 0.2s linear;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  ul.nav li:hover a {
+    color: #ff8c00;
+  }
+  
+  ul.nav li a {
+    padding: 21px;
+    color: white;
+    text-decoration: initial;
+  }
+
+
+  /*SYLING College mission*/
+
+
+  #paragraph {
+    float: left;
+    width: 40%;
+    border: 1px solid #f0fff0;
+    background-color: #f0fff0;
+    color: #333;
+    padding: 10px 20px;
+    line-height: 35px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 90px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+
+  h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+  }
+
+  /*STYLING ASIDE:*/
+  
+.side2 {
+  float:right;
+  width: 40%;
+}
+
+.mainH {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.smallH {
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 18px;
+  color: #ff8c00;
+  margin-left: 105px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+.box{
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 18px;
+  margin-left: 175px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.box span {
+  display: inline;
+  border: 1px solid #01203F;
+  background-color: #01203F;
+  border-radius: 5px;
+  padding: 8px 13px;
+  font-size: 20px;
+  transition: background 0.15s linear;
+}
+
+.box span:hover {
+  background: #ff8c00;
+  cursor: pointer;
+}
+
+.BigLogoImage {
+  margin-bottom: 50px;
+  margin-left: 22px;
+}
+
+/*STYLING FOOTER*/
+
+#main-footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background-color: #01203F;
+}
+
+
